@@ -3,6 +3,8 @@ import Header from './Header'
 //import Sidebar from './Sidebar';
 import MainContainer from './MainContainer';
 import Skills from './Skills';
+import Projects from './Projects';
+import Experience from './Experience';
 
 const Body = () => {
     return (
@@ -10,6 +12,8 @@ const Body = () => {
             <Header />
             <MainContainer />
             <Skills />
+            <Projects />
+            <Experience />
             <div className='text-2xl'>
 
             </div>
