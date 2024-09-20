@@ -25,7 +25,7 @@ const MainContainer = () => {
                     <p className='md:inline-block py-6 w-4/5 text-xl'>
                         <em><b>I</b></em> like to craft solid and scalable frontend products with great user experiences.
                         <br></br>
-                        <em><b>With</b></em> a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.
+                        <em><b>Driven</b></em> by a positive outlook and curiosity, I'm dedicated to personal and professional growth and ready to make a lasting impact..
                     </p>
                 </span>
             </div>

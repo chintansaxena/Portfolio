@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div className='flex flex-row p-4 m-4 '>
+        <div className='flex flex-row p-4 m-4 sticky top-0 bg-slate-300 rounded-xl'>
             <div className='px-16 mx-24'>
                 <div className='flex'>
                     <img
