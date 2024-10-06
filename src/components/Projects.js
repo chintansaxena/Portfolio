@@ -4,7 +4,7 @@ const Projects = () => {
     return (
         <div>
 
-            <div class="relative flex py-5 items-center">
+            <div class="relative flex py-5 items-center" id='projects'>
                 <div class="flex-grow border-t border-gray-600 border-"></div>
                 <span class="flex-shrink mx-4 text-gray-400">
                     <img

@@ -4,7 +4,7 @@ const Education = () => {
     return (
         <div>
             <br></br>
-            <div class="relative flex py-5 items-center">
+            <div class="relative flex py-5 items-center" id='education'>
                 <div class="flex-grow border-t border-gray-600 border-"></div>
                 <span class="flex-shrink mx-4 text-gray-400">
                     <img
@@ -32,16 +32,16 @@ const Education = () => {
                             <h3 className='mr-4 pr-2 mt-2 text-lg font-semibold'>Computer Science & Engineering</h3>
                         </p>
 
-                        <h4 className='mx-4 px-2 text-lg my-2'>
+                        <h4 className='mx-4 px-2 text-lg my-2 mb-6'>
                             Dr. APJ Abdul Kalam Technical University, <em>Aug 2016 - Sep 2020. </em>
                         </h4>
                         <h4>
                             <ul>
-                                <li className='mx-8 mb-2'>
+                                <li className='mx-10 mb-2'>
                                     <b>Key Courses</b>: Data Structures, Algorithms, Database Management, Web Development, Software Engineering, Operating Systems, Micrprocessors.
                                 </li>
-                                <li className='mx-8 mb-2'>
-                                    <b>Notable Project</b>: IoT based digital advertisement board powered by Raspberry Pi 2 with web app to change advertisements remotely.
+                                <li className='mx-10 mb-2'>
+                                    <b>Notable Project</b>: IoT based digital advertisement board powered by Raspberry Pi with web app to update advertisements remotely.
                                 </li>
                             </ul>
                         </h4>

@@ -5,7 +5,7 @@ const Experience = () => {
         <div>
             <br></br>
             <br></br>
-            <div class="relative flex py-5 items-center">
+            <div class="relative flex py-5 items-center" id='experience'>
                 <div class="flex-grow border-t border-gray-600 border-"></div>
                 <span class="flex-shrink mx-4 text-gray-400">
                     <img
@@ -23,8 +23,8 @@ const Experience = () => {
                 My work experience as as a software engineer working on multiple projects.
             </div>
 
-            <div className='flex flex-row justify-center m-4 my-4 p-4'>
-                <div className='p-6 rounded-lg border border-gray-800 text-black w-3/5'>
+            <div className='flex flex-row justify-center m-4 my-4 p-4 '>
+                <div className='p-6 rounded-lg border border-gray-800 text-black w-3/5 shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] bg-white ease-out hover:translate-y-1 transition-all'>
                     <h2 className='text-2xl font-semibold font-serif mx-4 px-2 mt-2'>
                         Software Engineer
                     </h2>

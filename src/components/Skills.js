@@ -5,7 +5,7 @@ const Skills = () => {
         <div>
             <br></br>
             <br></br>
-            <div class="relative flex py-5 items-center">
+            <div class="relative flex py-5 items-center" id='skills'>
                 <div class="flex-grow border-t border-gray-600 border-"></div>
                 <span class="flex-shrink mx-4 text-gray-400">
                     <img
@@ -31,7 +31,7 @@ const Skills = () => {
                     </h2>
                     <div className='flex flex-row flex-wrap gap-0 m-4 p-2 justify-center '>
 
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -39,7 +39,7 @@ const Skills = () => {
                             />
                             React Js
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -47,7 +47,7 @@ const Skills = () => {
                             />
                             Redux
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -55,7 +55,7 @@ const Skills = () => {
                             />
                             HTML5
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -63,7 +63,7 @@ const Skills = () => {
                             />
                             CSS 3
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -71,7 +71,7 @@ const Skills = () => {
                             />
                             JavaScript
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white text-ellipsis truncate font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white text-ellipsis truncate font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -79,15 +79,15 @@ const Skills = () => {
                             />
                             Bootstrap
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
                                 src='https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.png'
                             />
-                            Tailind CSS
+                            Tailwind CSS
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -95,7 +95,7 @@ const Skills = () => {
                             />
                             Material UI
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -110,7 +110,7 @@ const Skills = () => {
                         Backend
                     </h2>
                     <div className='flex flex-row flex-wrap gap-0 m-4 p-2 justify-center'>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -118,7 +118,7 @@ const Skills = () => {
                             />
                             Node Js
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white text-ellipsis truncate font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white text-ellipsis truncate font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -126,7 +126,7 @@ const Skills = () => {
                             />
                             Express Js
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -134,7 +134,7 @@ const Skills = () => {
                             />
                             MongoDB
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -152,7 +152,7 @@ const Skills = () => {
                         Others
                     </h2>
                     <div className='flex flex-row flex-wrap gap-0 m-4 p-2 justify-center'>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -160,7 +160,7 @@ const Skills = () => {
                             />
                             Git
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -168,7 +168,7 @@ const Skills = () => {
                             />
                             GitHub
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -176,7 +176,7 @@ const Skills = () => {
                             />
                             Netlify
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -184,7 +184,7 @@ const Skills = () => {
                             />
                             VS Code
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -192,7 +192,7 @@ const Skills = () => {
                             />
                             Postman
                         </div>
-                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 hover:bg-gray-200 active:bg-black active:text-white font-semibold'>
+                        <div className='flex flex-row w-fit items-center border border-gray-800 rounded-lg my-1 mx-3 py-1 px-2 active:bg-black active:text-white font-semibold bg-white ease-out hover:translate-y-1 transition-all'>
                             <img
                                 className='h-8 w-8 m-1'
                                 alt='react'
@@ -205,6 +205,7 @@ const Skills = () => {
             </div>
 
         </div>
+
     )
 }
 
