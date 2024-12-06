@@ -93,7 +93,7 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className='w-10 h-10 mx-4 mt-2'>
-                        <a href='https://www.instagram.com/chintan.saxena/'
+                        <a href='https://www.instagram.com/chintxan/'
                             target='_bla'
                         >
                             <img
