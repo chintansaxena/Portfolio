@@ -21,6 +21,10 @@ module.exports = {
           'from': { transform: 'translate(-50%, -50%) rotate(0deg)' },
           'to': { transform: 'translate(-50%, -50%) rotate(360deg)' },
         },
+        'shadow-rotate-stop': {
+          'from': { transform: 'translate(-50%, -50%) rotate(0deg)' },
+          'to': { transform: 'translate(-50%, -50%) rotate(0deg)' },
+        },
       },
     },
   },

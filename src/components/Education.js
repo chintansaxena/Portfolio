@@ -15,7 +15,7 @@ const Education = () => {
                 </span>
                 <div class="flex-grow border-t border-gray-600 "></div>
             </div>
-            <div className='text-center text-4xl font-extrabold m-4 my-8'>
+            <div className='text-center text-4xl font-extrabold m-4 my-8 '>
                 Education
             </div>
             <div className='text-center text-xl font-mono m-2 p-1'>
@@ -23,8 +23,8 @@ const Education = () => {
             </div>
 
             <div>
-                <div className='flex flex-row justify-center m-4 my-4 p-4'>
-                    <div className='p-6 rounded-lg border border-gray-800 text-black w-3/5'>
+                <div className='flex flex-row justify-center m-4 my-4 p-4 '>
+                    <div className='p-6 rounded-lg border border-gray-800 text-black w-3/5 shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] bg-white ease-out hover:translate-y-1 transition-all'>
                         <p className='flex flex-row'>
                             <h2 className='text-xl font-semibold font-serif ml-4 px-2 mt-2'>
                                 Bachelor of Technology,
