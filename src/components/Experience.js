@@ -23,13 +23,34 @@ const Experience = () => {
                 My work experience as as a software engineer working on multiple projects.
             </div>
 
-            <div className='flex flex-row justify-center m-4 my-4 p-4 '>
-                <div className='p-6 rounded-lg border border-gray-800 text-black w-3/5 shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] bg-white ease-out hover:translate-y-1 transition-all'>
+            <div className='flex flex-col justify-center items-center m-4 my-4 p-4 '>
+                <div className='p-6 m-6 rounded-lg border border-gray-800 text-black w-3/5 shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] bg-white ease-out hover:translate-y-1 transition-all'>
+                    <h2 className='text-2xl font-semibold font-serif mx-4 px-2 mt-2'>
+                        Technology Analyst
+                    </h2>
+                    <h4 className='mx-4 px-2 text-lg mb-4'>
+                        Infosys | <em>Jan 2025 - Present. </em>
+                    </h4>
+                    <ul className='mx-12'>
+                        <h4 className='text-lg font-medium mb-2'>Assignment : Frontend development for enterprise analytics platform using React.js, Redux, and REST APIs</h4>
+                        <li className='ml-3'>
+                            • Engineered and implemented multiple new features using React.js and Redux in coordination with backend teams, ensuring robust API integration and optimal frontend performance.
+                        </li>
+                        <li className='ml-3'>
+                            • Solely managed end-to-end frontend development in the latter project phase implementing efficient pagination in <b>4 critical React.js components</b> to significantly reduce load times and enhance application responsiveness.
+                        </li>
+                        <li className='ml-3'>
+                            •  Enhanced search performance in React.js components by implementing debouncing, reducing unnecessary API requests by <b>60%</b> and improving user experience.
+                        </li>
+                    </ul>
+                    <br></br>
+                </div>
+                <div className='p-6 m-6 rounded-lg border border-gray-800 text-black w-3/5 shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] bg-white ease-out hover:translate-y-1 transition-all'>
                     <h2 className='text-2xl font-semibold font-serif mx-4 px-2 mt-2'>
                         Software Engineer
                     </h2>
                     <h4 className='mx-4 px-2 text-lg mb-4'>
-                        Coforge | <em>Mar 2021 - Present. </em>
+                        Coforge | <em>Mar 2021 - Dec 2024</em>
                     </h4>
                     <ul className='mx-12'>
                         <h4 className='text-lg font-medium mb-2'>Assignment : Internal migration.</h4>
